@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface LBViewController : UIViewController
+- (IBAction)clickedButton:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *outputButton;
 
 @end
